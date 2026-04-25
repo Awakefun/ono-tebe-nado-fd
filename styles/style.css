@@ -3,7 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 91px;
-  text-underline-offset: 3.5px;
+  text-underline-offset: 4px;
   font-size: 18px;
   font-weight: normal;
 }
@@ -38,7 +38,6 @@
   font-style: normal;
   align-items: flex-start;
   line-height: 1.35;
-  text-underline-offset: 3.5px;
   font-size: 18px;
   font-weight: normal;
 }
@@ -243,10 +242,6 @@
   gap: 24px;
 }
 
-.accent-span {
-  display: block;
-}
-
 .about__text p {
   font-size: 20px;
   line-height: 24px;
@@ -259,10 +254,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 50px;
   margin-bottom: 82px;
+  text-underline-offset: 4px;
 }
 
 .footer__menu {
-  text-underline-offset: 3.5px;
   font-size: 18px;
   font-weight: normal;
 }
